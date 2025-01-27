@@ -1,5 +1,5 @@
 const fromDollarToYen = function (valueInDollar)  {
-    let valueInYen= valueInDollar * 146.262
+    let valueInYen= valueInDollar * 167.455
     return valueInYen
 
 

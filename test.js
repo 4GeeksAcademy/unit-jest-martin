@@ -8,8 +8,8 @@ test("One euro should be 1.07 dollars", function() {
 test("One dollar should be 146.262 yens", function() {
     const {fromDollarToYen} =require('./app.js');
     const yens =fromDollarToYen(3.5)
-    const expected = 3.5 * 146.262;
-    expect(fromDollarToYen(3.5)).toBe(511.91700000000003)
+    const expected = 3.5 * 167.455;
+    expect(fromDollarToYen(3.5)).toBe(586.0925000000001)
 
 })
 
